@@ -61,6 +61,10 @@ Used technologies:
 ### More in depth view
 ![Design](./docs/assets/wireframe.png)
 
+### Data Flow in the app
+![Design](./docs/assets/data-flow.png)
+
+
 ## Code
 
 ## Conclusion
