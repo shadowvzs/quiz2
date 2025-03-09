@@ -33,7 +33,7 @@ Used technologies:
 
 ## What?
 - as user:
-    - questions with 4 answer options
+    - questions with 4 answer options, each correct answer would be 1 score, until player reach the last question
     - scoreboard with the top 10 score
     - special text if the current score is above than 75%
     - the screen orientation change should not have any negative effect to the current game (not reset the questions etc)
@@ -60,3 +60,21 @@ Used technologies:
 
 ### More in depth view
 ![Design](./docs/assets/wireframe.png)
+
+## Code
+
+## Conclusion
+### Target
+- The app fulfills the targeted functionalities, in the simplest way.
+### Future improvement
+- There is some room for the improvement like:
+   - adding DI (dependency injection)
+   - more predefined/standard font size, colors etc into the ui theme
+   - more tests, ex. for score saving
+   - if this is a real project then **CHANGE.LOG** for documenting all changes
+   - implementing more funny icons and trophy too for the scoreboard
+### Lesson Learned
+ Development with compose is a unique approach, which has good potential, similar to ReactJS (using an object for modeling, function components - compose functions, local state, life cycle hooks like useEffect - launchEffect, etc), but also needs some experience to master it, but worth it (at least ReactJS a rock solid frontend framework, many companies use it). The whole project gave a good insight into the android development.
+
+
+
