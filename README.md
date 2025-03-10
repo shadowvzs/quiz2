@@ -82,7 +82,8 @@ Used technologies:
 - [Routes](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/Routes.kt) - contains an object which we will use as an enum, to prevent the miss typing in the navigate method
 
 ## Conclusion
-Youtube [video](https://youtu.be/6_nGAE2g-XI), click below
+- Youtube [video](https://youtu.be/6_nGAE2g-XI), click below
+
 [![Watch the video](https://img.youtube.com/vi/6_nGAE2g-XI/hqdefault.jpg)](https://youtu.be/6_nGAE2g-XI)
 
 ### Target
