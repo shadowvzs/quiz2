@@ -52,6 +52,8 @@ Used technologies:
 
 
 ## How
+<details>
+  <summary>Graphs</summary>
 ### Wireframe
 ![Design](./docs/assets/wireframe1.png)
 
@@ -63,7 +65,7 @@ Used technologies:
 
 ### Data Flow in the app
 ![Design](./docs/assets/data-flow.png)
-
+</details>
 
 ## Code
 ### Main elements
