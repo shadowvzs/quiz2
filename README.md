@@ -66,8 +66,25 @@ Used technologies:
 
 
 ## Code
+### Main elements
+- [MainActivity](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/MainActivity.kt) - entry point of the application, handle the NavControllerHost too
+### Business logic
+- [QuizViewModel](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/viewModels/QuizViewModel.kt) - view model life cycle is independent from the activity life cycle (singleton), so ideal for store the loaded data, instatiate the managers
+- [QuizMaster](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/services/QuizMaster.kt) - manage the current question (select the current question, verify the answer, track how many failed or not etc)
+- [ScoreManager](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/services/ScoreManager.kt) - load/update the score in dataStore
+### UI components
+- [Screens](https://github.com/shadowvzs/quiz2/tree/master/app/src/main/java/com/example/quiz/screens) - composable view screens (HomeScreen, ScoreScreen, NewScoreScreen, GameScreen)
+### Data models
+- [BaseQuizItam](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/models/BaseQuizItem.kt) - data class for the questions
+- [ScoreHistory](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/models/ScoreHistory.kt) - data class for a record (score, date, name)
+### Helpers
+- [JSON](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/utils/JSON.kt) - helper method to load json file from the assets folder
+- [Routes](https://github.com/shadowvzs/quiz2/blob/master/app/src/main/java/com/example/quiz/Routes.kt) - contains an object which we will use as an enum, to prevent the miss typing in the navigate method
 
 ## Conclusion
+
+[![Watch the video](https://img.youtube.com/vi/6_nGAE2g-XI/default.jpg)](https://youtu.be/6_nGAE2g-XI)
+
 ### Target
 - The app fulfills the targeted functionalities, in the simplest way.
 ### Future improvement
